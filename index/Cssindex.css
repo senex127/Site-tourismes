@@ -1,0 +1,75 @@
+body {
+  background-image: url(background.jpeg);
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.container{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+  opacity: 0.95;
+}
+.cardborder-0shadowmy-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.card-bodyp-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.nav-link {
+  display: inline-block;
+  color:#937341 !important;
+  font-family: "police";
+}
+.navbar-brand {
+  display: inline-block;
+  color: #937341 !important;
+  font-family: "police";
+}
+
+.title_1orQ {
+    font-weight: 500;
+    font-size: 104px;
+    font-family: "police";
+    color: #937341;
+}
+
+.title_1orQ {
+  display: inline-block;
+  color: #937341 !important;
+  font-family: "police";
+}
+
+.center  {
+  text-align: center !important;
+}
+
+@font-face {
+    font-family: "police";
+    src: url('police.otf');
+}
+.card-title {
+  color: #937341;
+  font-family: "police";
+}
+
+.card-text {
+  color: #c4b998;
+  font-family: "police";
+}
+
+.card-body {
+    background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.footerdefault-background {
+    background-color: #0a0a0c;
+    border-top: 1px solid #937341;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    margin: auto;
+}

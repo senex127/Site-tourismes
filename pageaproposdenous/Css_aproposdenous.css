@@ -1,0 +1,127 @@
+body {
+  background-image: url(background.jpeg);
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+@font-face {
+    font-family: "police";
+    src: url('police.otf');
+}
+.container{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+  opacity: 0.95;
+}
+.cardborder-0shadowmy-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.card-bodyp-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.nav-link {
+  display: inline-block;
+  color: #937341!important;
+  font-family: "police";
+}
+.navbar-brand {
+  display: inline-block;
+  color: #937341!important;
+  font-family: "police";
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  background-color: #f2f2f2;
+  padding: 10px;
+  color: #937341;
+  font-family: "police";
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.h2 {
+  color: #937341;
+  font-family: "police";
+}
+
+.p {
+  color: #937341;
+  font-family: "police";
+}
+
+.fname {
+  color: #937341;
+  font-family: "police";
+}
+
+.lname {
+  color: #937341;
+  font-family: "police";
+}
+
+.country {
+  color: #937341;
+  font-family: "police";
+}
+
+.subject {
+  color: #937341;
+  font-family: "police";
+}
+.footerdefault-background {
+    background-color: #0a0a0c;
+    border-top: 1px solid #937341;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    margin: auto;
+}
