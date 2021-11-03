@@ -1,0 +1,123 @@
+.carousel-item {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 100% !important;
+}
+
+.carousel-item img {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 100% !important;
+}
+
+.carousel-control-next {
+  margin-right: auto;
+}
+
+.carousel-control-prev {
+  margin-left: auto;
+}
+
+.carousel-indicators {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.carousel-caption {
+  position: relative !important;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.carousel-inner {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+body {
+  /* Location of the image */
+   background-image: url(Background.jpg);
+
+   /* Background image is centered vertically and horizontally at all times */
+   background-position: center center;
+
+   /* Background image doesn't tile */
+   background-repeat: no-repeat;
+
+   /* Background image is fixed in the viewport so that it doesn't move when
+      the content's height is greater than the image's height */
+   background-attachment: fixed;
+
+   /* This is what makes the background image rescale based
+      on the container's size */
+   background-size: cover;
+
+
+ }
+
+
+.container{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+opacity: 0.95;
+}
+.cardborder-0shadowmy-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+
+}
+.card-bodyp-5{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+
+}
+
+.legende {
+  color: #937341;
+font-family: "police";
+}
+
+.nav-link {
+  color:#937341 !important;
+font-family: "police";
+}
+
+a.navbar-brand {
+  color: #937341 !important;
+font-family: "police";
+}
+
+.policeWhite {
+  color: #937341 !important;
+  font-family: "police";
+}
+
+@font-face {
+    font-family: "police";
+    src: url('police.otf');
+}
+
+.card-body{
+color: #c4b998;
+  font-family: "police";
+background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.col-md-4{
+  background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+.col-md-8{
+    background: linear-gradient(to bottom, #3E3D3D 0%, #171717 100%);
+}
+iframe{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center;
+}
+.footerdefault-background {
+    background-color: #0a0a0c;
+    border-top: 1px solid #937341;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    margin: auto;
+}
